@@ -71,7 +71,7 @@ describe("Library Integration Test", () => {
   });
 
   test("Create a book with data from previously created author using book's test data return 200", async () => {
-    // Now create the book using the created author's ID
+    // Create the book using the created author's ID
     const bookWithAuthorData = {
       ...book,
       authorId: createdAuthorId,
@@ -105,7 +105,7 @@ describe("Library Integration Test", () => {
     createdCustomerId = response.body.customerId; // Save the created customer ID
   });
 
-  // using the created Customer, it should do the tests below:
+  // Using the created Customer, it should do the tests below:
 
   test("Get the created book by its id return 200", async () => {
     const response = await request
@@ -118,11 +118,10 @@ describe("Library Integration Test", () => {
       );
 
     expect(response.status).toBe(200);
-    // You can add more assertions to check the response body or data if needed.
   });
 
   test("Create a sale based on saleModel fields with created book by its id return 200", async () => {
-    // Make sure to use the correct created customer and book IDs in the saleModel
+    // Use created customer and book IDs for creation of the sale based on saleModel
     saleModel.customerId = createdCustomerId;
     saleModel.bookId = createdBookId;
 
@@ -137,6 +136,5 @@ describe("Library Integration Test", () => {
       .send(saleModel);
 
     expect(response.status).toBe(200);
-    // You can add more assertions to check the response body or data if needed.
   });
 });

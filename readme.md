@@ -63,6 +63,8 @@ npm run watch
 
 # 4. Methods
 
+Checkout the description, how to use each method, the authorizaton needed, required fields, rules and optional parameters.
+
 ## Author Routes
 
 ### `GET /author`
@@ -98,7 +100,7 @@ npm run watch
 - **Method:** DELETE
 - **Rule:** If the author has associated books. Deletion is not allowed.
 
-# Book Routes
+## Book Routes
 
 ### `GET /book`
 
@@ -201,7 +203,7 @@ npm run watch
 - **Method:** DELETE
 - **Rule:** If customer has associated sales. Deletion is not allowed.
 
-# Sale Routes
+## Sale Routes
 
 ### `GET /sale`
 
@@ -232,7 +234,7 @@ npm run watch
 
 Please make sure to include the required authorization headers when making requests to these routes.
 
-## `Admin Credentials`
+## Admin Credentials
 
 It could be updated on [basicAuth](./auth/basicAuth.js)
 
