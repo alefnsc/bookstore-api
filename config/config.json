@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "nrhxvwna",
+    "password": "EHQ3MzTRa4Zc0-ofLEjkXeXVYSPikLCL",
+    "database": "nrhxvwna",
+    "host": "motty.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}

@@ -1,0 +1,453 @@
+2023-09-23T16:12:41.054Z [book-api] error GET  - Cannot read properties of undefined (reading 'user')
+2023-09-23T16:13:53.623Z [book-api] error GET  - Cannot read properties of undefined (reading 'username')
+2023-09-23T16:15:47.316Z [book-api] error GET  - Cannot read properties of undefined (reading 'user')
+2023-09-23T16:16:26.176Z [book-api] error GET  - Cannot read properties of undefined (reading 'user')
+2023-09-23T16:30:25.937Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:30:37.555Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:32:37.134Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:38:05.862Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:43:44.856Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:43:53.477Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:46:33.205Z [book-api] error GET  - owner_id is not defined
+2023-09-23T16:49:16.593Z [book-api] error GET  - Cannot read properties of undefined (reading 'user')
+2023-09-23T16:57:35.999Z [book-api] error GET  - owner_id is not defined
+2023-09-23T17:00:05.375Z [book-api] error GET  - Cannot read properties of undefined (reading 'findAll')
+2023-09-23T17:02:53.636Z [book-api] error GET  - Cannot read properties of undefined (reading 'findAll')
+2023-09-23T17:04:20.226Z [book-api] error GET  - Cannot read properties of undefined (reading 'findAll')
+2023-09-23T17:09:45.697Z [book-api] error GET  - Books is not defined
+2023-09-23T17:12:25.365Z [book-api] error GET  - sequelize.findAll is not a function
+2023-09-23T17:12:49.849Z [book-api] error GET  - Cannot read properties of undefined (reading 'findAll')
+2023-09-23T17:13:44.162Z [book-api] error GET  - Cannot read properties of undefined (reading 'findAll')
+2023-09-23T17:14:10.766Z [book-api] info GET /book - []
+2023-09-23T17:16:12.288Z [book-api] error POST  - Cannot set headers after they are sent to the client
+2023-09-23T17:22:30.709Z [book-api] error POST  - code is not defined
+2023-09-23T17:22:53.264Z [book-api] error POST  - WHERE parameter "authorId" has invalid "undefined" value
+2023-09-23T17:24:17.221Z [book-api] error POST  - WHERE parameter "authorId" has invalid "undefined" value
+2023-09-23T17:24:37.314Z [book-api] error POST  - existantAuthor is not defined
+2023-09-23T17:25:37.352Z [book-api] info POST /author - {"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-23T17:27:06.551Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-23T17:27:15.075Z [book-api] info POST /book - {"name":"Livro do Fulano","value":100.5,"stock":"3","authorId":"1"}
+2023-09-23T17:27:28.267Z [book-api] info POST /book - {"name":"Livro do Fulano","value":100.5,"stock":"3","authorId":"2"}
+2023-09-23T17:27:42.382Z [book-api] info GET /book - [{"bookId":1,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":1,"createdAt":"2023-09-23T17:27:14.932Z","updatedAt":"2023-09-23T17:27:14.932Z"},{"bookId":2,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T17:27:28.116Z","updatedAt":"2023-09-23T17:27:28.116Z"}]
+2023-09-23T17:40:19.714Z [book-api] error GET  - client is not defined
+2023-09-23T17:41:15.528Z [book-api] error GET  - WHERE parameter "bookId" has invalid "undefined" value
+2023-09-23T17:42:08.826Z [book-api] error GET  - WHERE parameter "bookId" has invalid "undefined" value
+2023-09-23T17:59:36.022Z [book-api] info GET /book - {"bookId":1,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":1,"createdAt":"2023-09-23T17:27:14.932Z","updatedAt":"2023-09-23T17:27:14.932Z"}
+2023-09-23T18:00:25.830Z [book-api] error GET  - client.sequelize is not a function
+2023-09-23T18:01:18.197Z [book-api] error GET  - client is not defined
+2023-09-23T18:01:20.521Z [book-api] error GET  - client is not defined
+2023-09-23T18:02:18.119Z [book-api] error GET  - client.sequelize is not a function
+2023-09-23T18:03:27.235Z [book-api] error GET  - client is not a function
+2023-09-23T18:05:27.905Z [book-api] info GET /book - {"book":{"bookId":1,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":1,"createdAt":"2023-09-23T17:27:14.932Z","updatedAt":"2023-09-23T17:27:14.932Z"},"bookInfo":[null]}
+2023-09-23T20:02:26.766Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:05:19.614Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:05:26.432Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:05:56.999Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:06:00.069Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:06:04.945Z [book-api] info GET /book - [{"bookId":1,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":1,"createdAt":"2023-09-23T17:27:14.932Z","updatedAt":"2023-09-23T17:27:14.932Z"},{"bookId":2,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T17:27:28.116Z","updatedAt":"2023-09-23T17:27:28.116Z"}]
+2023-09-23T20:06:52.213Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:08:00.220Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:09:13.461Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:09:16.662Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:09:45.336Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:09:46.819Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:11:20.827Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:11:46.918Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:11:55.193Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:13:19.089Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:13:27.468Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:13:51.741Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:14:49.973Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:21:37.943Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:22:18.496Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:24:41.257Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:25:37.576Z [book-api] info GET /book - [{"bookId":1,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":1,"createdAt":"2023-09-23T17:27:14.932Z","updatedAt":"2023-09-23T17:27:14.932Z"},{"bookId":2,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T17:27:28.116Z","updatedAt":"2023-09-23T17:27:28.116Z"}]
+2023-09-23T20:25:49.922Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:26:09.806Z [book-api] error PUT  - Expected double-quoted property name in JSON at position 59
+2023-09-23T20:26:20.410Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:26:25.002Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:30:15.511Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:30:58.309Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:31:37.763Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:33:50.639Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:35:17.210Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:35:57.052Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:36:41.807Z [book-api] error DELETE  - Invalid status code: 1
+2023-09-23T20:37:54.034Z [book-api] error DELETE  - Book has associated Sales. Deletion is not allowed.
+2023-09-23T20:39:40.217Z [book-api] error DELETE  - Book has associated Sales. Deletion is not allowed.
+2023-09-23T20:39:51.686Z [book-api] error DELETE  - Book has associated Sales. Deletion is not allowed.
+2023-09-23T20:41:09.150Z [book-api] error DELETE  - Book has associated Sales. Deletion is not allowed.
+2023-09-23T20:41:31.662Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:43:39.426Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:43:52.772Z [book-api] error DELETE  - Book has associated Sales. Deletion is not allowed.
+2023-09-23T20:43:55.853Z [book-api] error DELETE  - Invalid status code: 1
+2023-09-23T20:43:59.383Z [book-api] info GET /book - []
+2023-09-23T20:44:05.125Z [book-api] info GET /book - []
+2023-09-23T20:46:13.621Z [book-api] error DELETE  - Book doesn't exist.
+2023-09-23T20:47:11.861Z [book-api] info GET /book - []
+2023-09-23T20:47:16.474Z [book-api] info POST /book - {"name":"Livro do Fulano","value":100.5,"stock":"3","authorId":"2"}
+2023-09-23T20:47:20.531Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":100.5,"stock":"3","authorId":"2"}
+2023-09-23T20:47:24.753Z [book-api] info GET /book - {"book":{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},"bookInfo":[null]}
+2023-09-23T20:47:34.797Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:48:16.993Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:48:45.187Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:49:03.584Z [book-api] error PUT  - book is not iterable
+2023-09-23T20:53:34.903Z [book-api] error GET  - invalid input syntax for integer: "info"
+2023-09-23T20:54:26.691Z [book-api] error GET  - invalid input syntax for integer: "info"
+2023-09-23T20:54:48.121Z [book-api] error GET  - invalid input syntax for integer: "info"
+2023-09-23T20:54:53.703Z [book-api] error GET  - invalid input syntax for integer: "info"
+2023-09-23T20:55:32.652Z [book-api] error POST  - client is not defined
+2023-09-23T20:55:58.613Z [book-api] error POST  - client.sequelize is not a function
+2023-09-23T20:56:50.641Z [book-api] error POST  - Attempted to check out a connection from closed connection pool
+2023-09-23T20:57:21.234Z [book-api] info POST /book/info - {"bookId":3,"description":"O Livro do fulano","pages":120,"editor":"Beltrano","_id":"650f51312206573313256554"}
+2023-09-23T20:57:41.000Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-23T20:57:48.028Z [book-api] info GET /book - {"book":{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},"bookInfo":[null]}
+2023-09-23T20:57:52.768Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[null]}
+2023-09-23T20:59:50.779Z [book-api] info POST /book/info - {"bookId":3,"description":"O Livro do fulano","pages":120,"editor":"Beltrano","_id":"650f51c62206573313256555"}
+2023-09-23T20:59:57.563Z [book-api] info GET /book - {"book":{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},"bookInfo":[null]}
+2023-09-23T21:04:11.602Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T17:25:37.302Z"}]
+2023-09-23T21:04:38.257Z [book-api] info GET /author - {"authorId":1,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T17:25:37.302Z"}
+2023-09-23T21:05:43.590Z [book-api] error PUT  - WHERE parameter "authorId" has invalid "undefined" value
+2023-09-23T21:06:04.475Z [book-api] error PUT  - WHERE parameter "authorId" has invalid "undefined" value
+2023-09-23T21:06:46.901Z [book-api] error PUT  - WHERE parameter "authorId" has invalid "undefined" value
+2023-09-23T21:10:14.896Z [book-api] info POST /author - {"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-23T21:10:19.058Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"}]
+2023-09-23T21:11:17.727Z [book-api] info POST /author - {"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-23T21:11:27.757Z [book-api] error DELETE  - Author has associated books. Deletion is not allowed.
+2023-09-23T21:13:09.502Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T21:14:45.246Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:14:49.040Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T21:15:30.794Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:15:33.526Z [book-api] error GET  - Author is not defined
+2023-09-23T21:15:55.957Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T21:16:01.077Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:16:07.013Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:16:22.059Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T21:16:25.089Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:17:30.454Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:17:46.746Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:18:12.557Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:18:15.862Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T21:19:28.686Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:20:09.792Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:21:36.395Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T21:21:50.841Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T21:21:53.844Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T22:47:39.626Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"},{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"}]
+2023-09-23T22:47:55.604Z [book-api] info GET /author - {"authorId":1,"name":"Fulano","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T21:10:14.865Z"}
+2023-09-23T22:48:05.178Z [book-api] info POST /author - {"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-23T22:48:09.241Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T22:48:05.156Z"}]
+2023-09-23T22:48:20.630Z [book-api] info DELETE /author/:id - "2"
+2023-09-23T22:48:24.298Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T22:48:05.156Z"}]
+2023-09-23T22:58:02.365Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-23T22:58:13.219Z [book-api] info GET /book - {"book":{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},"bookInfo":[null]}
+2023-09-23T23:06:42.070Z [book-api] error POST  - Cannot read properties of undefined (reading 'findOne')
+2023-09-23T23:07:20.219Z [book-api] error POST  - Cannot read properties of undefined (reading 'create')
+2023-09-23T23:09:56.663Z [book-api] info POST /customer - {"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino"}
+2023-09-23T23:10:17.997Z [book-api] info GET /customer - [{"customerId":1,"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino","createdAt":"2023-09-23T23:09:56.501Z","updatedAt":"2023-09-23T23:09:56.501Z"}]
+2023-09-23T23:10:26.435Z [book-api] info GET /customer - {"customerId":1,"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino","createdAt":"2023-09-23T23:09:56.501Z","updatedAt":"2023-09-23T23:09:56.501Z"}
+2023-09-23T23:11:43.108Z [book-api] error PUT  - WHERE parameter "customerId" has invalid "undefined" value
+2023-09-23T23:13:22.869Z [book-api] error PUT  - WHERE parameter "customerId" has invalid "undefined" value
+2023-09-23T23:13:51.216Z [book-api] info POST /customer - {"customerId":1,"name":"Josefino de Jesus","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino"}
+2023-09-23T23:13:57.542Z [book-api] info GET /customer - [{"customerId":1,"name":"Josefino de Jesus","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino","createdAt":"2023-09-23T23:09:56.501Z","updatedAt":"2023-09-23T23:13:51.187Z"}]
+2023-09-23T23:14:14.709Z [book-api] error DELETE  - Cannot read properties of undefined (reading 'count')
+2023-09-23T23:16:13.840Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-23T23:16:32.285Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-23T23:16:50.929Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-23T23:17:16.069Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-23T23:18:25.049Z [book-api] info DELETE /customer/:id - "1"
+2023-09-23T23:18:28.807Z [book-api] info GET /customer - []
+2023-09-23T23:18:32.403Z [book-api] info POST /customer - {"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino"}
+2023-09-23T23:18:35.928Z [book-api] info DELETE /customer/:id - "1"
+2023-09-23T23:20:16.731Z [book-api] error DELETE  - Customer not found
+2023-09-23T23:20:21.626Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-23T23:21:11.741Z [book-api] error DELETE  - Customer not found
+2023-09-23T23:21:21.971Z [book-api] error DELETE  - Customer not found
+2023-09-23T23:21:26.649Z [book-api] info GET /customer - []
+2023-09-23T23:21:35.322Z [book-api] info POST /customer - {"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino"}
+2023-09-23T23:21:41.482Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-23T23:22:49.170Z [book-api] error DELETE  - Customer not found
+2023-09-23T23:22:53.229Z [book-api] info POST /customer - {"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino"}
+2023-09-23T23:22:54.763Z [book-api] info GET /customer - [{"customerId":4,"name":"Josefino","email":"josefino@tetado.com","password":"1234","phone":"11999999999","address":"rua do josefino","createdAt":"2023-09-23T23:22:53.189Z","updatedAt":"2023-09-23T23:22:53.189Z"}]
+2023-09-23T23:22:59.447Z [book-api] info DELETE /customer/:id - "4"
+2023-09-23T23:24:50.883Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-23T23:25:07.578Z [book-api] error POST  - code is not defined
+2023-09-23T23:26:25.145Z [book-api] error POST  - Cannot read properties of undefined (reading 'findOne')
+2023-09-23T23:26:44.694Z [book-api] error POST  - Cannot read properties of undefined (reading 'update')
+2023-09-23T23:26:56.014Z [book-api] error POST  - Cannot read properties of undefined (reading 'create')
+2023-09-23T23:27:50.100Z [book-api] info POST /sale - {"value":"1200","date":"05/05/2005","customerId":4,"bookId":3}
+2023-09-23T23:32:41.482Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":3,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:27:50.063Z"}]
+2023-09-23T23:32:51.557Z [book-api] info GET /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":3,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:27:50.063Z"}
+2023-09-23T23:37:29.526Z [book-api] info GET /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":3,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:27:50.063Z"}
+2023-09-23T23:37:50.406Z [book-api] error PUT  - Required field is missing: name
+2023-09-23T23:40:05.344Z [book-api] info POST /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":4}
+2023-09-23T23:40:13.186Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:40:05.319Z"}]
+2023-09-23T23:42:02.586Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:40:05.319Z"}]
+2023-09-23T23:42:37.604Z [book-api] info GET /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:40:05.319Z"}
+2023-09-24T15:59:32.904Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T22:48:05.156Z"}]
+2023-09-24T16:00:04.736Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T22:48:05.156Z"}]
+2023-09-24T16:00:31.954Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T22:48:05.156Z"}]
+2023-09-24T16:00:36.268Z [book-api] info GET /author - {"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-23T22:48:05.156Z"}
+2023-09-24T16:00:39.135Z [book-api] info POST /author - {"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-24T16:00:50.381Z [book-api] info DELETE /author/:id - "2"
+2023-09-24T16:00:53.921Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"}]
+2023-09-24T16:01:05.343Z [book-api] error POST  - Cannot set headers after they are sent to the client
+2023-09-24T16:01:22.083Z [book-api] info GET /customer - []
+2023-09-24T16:02:57.859Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T16:03:04.471Z [book-api] info GET /customer - [{"customerId":5,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T16:02:57.708Z","updatedAt":"2023-09-24T16:02:57.708Z"}]
+2023-09-24T16:03:09.151Z [book-api] info GET /customer - {"customerId":5,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T16:02:57.708Z","updatedAt":"2023-09-24T16:02:57.708Z"}
+2023-09-24T16:03:31.437Z [book-api] error PUT  - Expected double-quoted property name in JSON at position 163
+2023-09-24T16:03:33.826Z [book-api] error PUT  - WHERE parameter "authorId" has invalid "undefined" value
+2023-09-24T16:03:46.558Z [book-api] error PUT  - Expected double-quoted property name in JSON at position 163
+2023-09-24T16:03:49.373Z [book-api] error PUT  - Required field is missing: address
+2023-09-24T16:03:56.462Z [book-api] error PUT  - Expected ',' or '}' after property value in JSON at position 168
+2023-09-24T16:04:10.698Z [book-api] info POST /customer - {"customerId":5,"name":"biscoito","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T16:04:25.711Z [book-api] info GET /customer - [{"customerId":5,"name":"biscoito","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T16:02:57.708Z","updatedAt":"2023-09-24T16:04:10.673Z"}]
+2023-09-24T16:04:37.603Z [book-api] info DELETE /customer/:id - "5"
+2023-09-24T16:04:40.474Z [book-api] info GET /customer - []
+2023-09-24T16:13:30.894Z [book-api] info POST /customer - {"customerId":5,"name":"biscoito 2","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T16:14:00.763Z [book-api] info POST /customer - {"customerId":5,"name":"biscoito 3","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T16:14:39.885Z [book-api] info GET /customer - []
+2023-09-24T16:18:53.537Z [book-api] error PUT  - Customer not found
+2023-09-24T18:37:07.728Z [book-api] info GET /customer - []
+2023-09-24T18:51:42.372Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T18:51:49.918Z [book-api] info DELETE /book/:id - "4"
+2023-09-24T18:51:52.983Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T18:54:13.463Z [book-api] info DELETE /book/:id - "5"
+2023-09-24T18:56:33.157Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T18:56:39.996Z [book-api] info DELETE /book/:id - "4"
+2023-09-24T18:56:41.247Z [book-api] info DELETE /book/:id - "4"
+2023-09-24T18:56:45.586Z [book-api] info GET /book - [{"bookId":3,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:16.449Z","updatedAt":"2023-09-23T20:47:16.449Z"},{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T18:58:06.608Z [book-api] info DELETE /book/:id - "4"
+2023-09-24T18:59:09.990Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:40:05.319Z"}]
+2023-09-24T18:59:44.511Z [book-api] info DELETE /book/:id - "5"
+2023-09-24T19:00:15.075Z [book-api] error DELETE  - Cannot read properties of null (reading 'length')
+2023-09-24T19:00:38.704Z [book-api] error DELETE  - Book not found
+2023-09-24T19:00:59.006Z [book-api] info DELETE /book/:id - "4"
+2023-09-24T19:02:05.958Z [book-api] error DELETE  - Book has associated sales. Deletion is not allowed.
+2023-09-24T19:02:24.310Z [book-api] info DELETE /book/:id - "3"
+2023-09-24T19:02:27.126Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T19:19:17.860Z [book-api] info GET /book - {"book":null,"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:22:27.710Z [book-api] info GET /book - true
+2023-09-24T19:22:35.074Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T19:22:38.692Z [book-api] info GET /book - true
+2023-09-24T19:23:07.423Z [book-api] error GET  - Book not found
+2023-09-24T19:23:15.873Z [book-api] info GET /book - true
+2023-09-24T19:23:30.571Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:26:33.986Z [book-api] error GET  - invalid input syntax for integer: "info"
+2023-09-24T19:27:20.058Z [book-api] info POST /book/info - {"bookId":4,"description":"test","pages":120,"editor":"Ética","_id":"65108d982d1d1eb3d6be63f0"}
+2023-09-24T19:27:26.498Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:28:30.484Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:28:50.812Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:29:29.578Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:29:30.857Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_events":{},"_eventsCount":0}]}
+2023-09-24T19:30:37.275Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}}
+2023-09-24T19:30:50.464Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}}
+2023-09-24T19:32:24.191Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}}
+2023-09-24T19:33:10.298Z [book-api] info POST /book/info - {"bookId":4,"description":"test","pages":120,"editor":"Ética","_id":"65108ef6d4c6d012d69e07dd"}
+2023-09-24T19:34:55.611Z [book-api] info POST /book/info - {"bookId":4,"description":"test","pages":120,"editor":"Ética","_id":"65108f5f6d5c28fb624a5f17"}
+2023-09-24T19:37:25.138Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:38:27.280Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:38:53.524Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:39:22.496Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:40:53.850Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:43:10.312Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:43:32.441Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:45:14.723Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T19:49:23.728Z [book-api] error GET  - Attempted to check out a connection from closed connection pool
+2023-09-24T19:49:32.595Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T20:24:37.794Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T20:29:16.607Z [book-api] error GET  - filter is not defined
+2023-09-24T20:29:26.342Z [book-api] error GET  - Cannot read properties of undefined (reading 'bookInfo')
+2023-09-24T20:29:32.935Z [book-api] error GET  - Cannot read properties of undefined (reading 'bookInfo')
+2023-09-24T20:30:07.156Z [book-api] error GET  - Cannot read properties of undefined (reading 'bookInfo')
+2023-09-24T20:31:30.963Z [book-api] error GET  - filter is not defined
+2023-09-24T20:31:49.646Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T20:36:37.587Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T20:38:17.425Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[{"_id":"65108d982d1d1eb3d6be63f0","bookId":4,"description":"test","pages":120,"editor":"Ética"}]}
+2023-09-24T20:38:26.429Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T20:38:28.671Z [book-api] info POST /book - {"name":"Livro do Fulano","value":100.5,"stock":"3","authorId":"2"}
+2023-09-24T20:38:32.780Z [book-api] error GET  - Book not found
+2023-09-24T20:38:35.391Z [book-api] info GET /book - {"book":{"bookId":5,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-24T20:38:28.645Z","updatedAt":"2023-09-24T20:38:28.645Z"},"bookInfo":[{"_id":"65108d982d1d1eb3d6be63f0","bookId":4,"description":"test","pages":120,"editor":"Ética"}]}
+2023-09-24T20:39:19.928Z [book-api] info GET /book - {"book":{"bookId":5,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-24T20:38:28.645Z","updatedAt":"2023-09-24T20:38:28.645Z"},"bookInfo":[]}
+2023-09-24T20:39:25.500Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T20:40:54.222Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T20:50:42.716Z [book-api] info POST /book/info - {"bookId":4,"description":"test","pages":120,"editor":"Ética","_id":"6510a122a5c6e0bf21f12388"}
+2023-09-24T20:50:47.060Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":[]}
+2023-09-24T21:33:19.080Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},{"bookId":5,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-24T20:38:28.645Z","updatedAt":"2023-09-24T20:38:28.645Z"}]
+2023-09-24T21:33:23.626Z [book-api] error POST  - mongoose.connect is not a constructor
+2023-09-24T21:36:39.019Z [book-api] error POST  - ProductInfo is not defined
+2023-09-24T21:37:12.342Z [book-api] error POST  - Assignment to constant variable.
+2023-09-24T21:37:37.547Z [book-api] error POST  - productInfo is not defined
+2023-09-24T21:38:01.386Z [book-api] info POST /book/info - {"bookId":5,"description":"test","pages":120,"editor":"Ética"}
+2023-09-24T21:38:17.439Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":null}
+2023-09-24T21:41:39.212Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T21:41:46.896Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T21:42:08.826Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":null}
+2023-09-24T21:44:32.647Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T21:45:05.505Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T21:45:32.100Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T21:51:37.446Z [book-api] info PUT /book/info - {"bookId":5,"description":"test update","pages":120,"editor":"Ética"}
+2023-09-24T21:51:46.380Z [book-api] info PUT /book/info - {"bookId":5,"description":"test update","pages":120,"editor":"Ética"}
+2023-09-24T21:51:47.403Z [book-api] info PUT /book/info - {"bookId":5,"description":"test update","pages":120,"editor":"Ética"}
+2023-09-24T21:51:48.192Z [book-api] info PUT /book/info - {"bookId":5,"description":"test update","pages":120,"editor":"Ética"}
+2023-09-24T21:51:48.942Z [book-api] info PUT /book/info - {"bookId":5,"description":"test update","pages":120,"editor":"Ética"}
+2023-09-24T21:53:20.187Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},{"bookId":5,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-24T20:38:28.645Z","updatedAt":"2023-09-24T20:38:28.645Z"}]
+2023-09-24T21:53:25.268Z [book-api] info POST /book/info - {"bookId":5,"description":"test","pages":120,"editor":"Ética"}
+2023-09-24T21:54:36.571Z [book-api] info DELETE /book/info/:id - "5"
+2023-09-24T21:55:28.763Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T21:55:53.066Z [book-api] info POST /book/info - {"bookId":5,"description":"test","pages":120,"editor":"Ética"}
+2023-09-24T21:57:17.982Z [book-api] info POST /book/info - {"bookId":4,"description":"test","pages":120,"editor":"Ética"}
+2023-09-24T21:57:38.647Z [book-api] info POST /book/info - {"bookId":5,"description":"test","pages":120,"editor":"Ética"}
+2023-09-24T22:03:46.804Z [book-api] error POST  - Cannot set headers after they are sent to the client
+2023-09-24T22:08:58.456Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T22:09:15.587Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},{"bookId":5,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-24T20:38:28.645Z","updatedAt":"2023-09-24T20:38:28.645Z"}]
+2023-09-24T22:09:20.756Z [book-api] error GET  - Book not found
+2023-09-24T22:09:26.411Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[],"__v":0}}
+2023-09-24T22:09:52.346Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[],"__v":0}}
+2023-09-24T22:09:55.084Z [book-api] info GET /book - {"book":{"bookId":5,"name":"Livro do Fulano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-24T20:38:28.645Z","updatedAt":"2023-09-24T20:38:28.645Z"},"bookInfo":{"_id":"6510afd563b50307387147b2","bookId":5,"description":"test","pages":"120","editor":"Ética","reviews":[],"__v":0}}
+2023-09-24T22:10:00.246Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[],"__v":0}}
+2023-09-24T22:10:45.985Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T22:11:38.346Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T22:12:04.816Z [book-api] error POST  - Cannot read properties of null (reading 'reviews')
+2023-09-24T22:12:44.609Z [book-api] info POST /book/:id/review - bookId: 4 - {"name":"teste","rating":5,"review":"teste"}
+2023-09-24T22:12:56.327Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[{"name":"teste","rating":5,"review":"teste","_id":"6510b45c77c03ac1a247567e"}],"__v":0}}
+2023-09-24T22:14:05.649Z [book-api] info DELETE /book/:bookId/review/:reviewIndex - bookId: 4 - undefined
+2023-09-24T22:14:12.668Z [book-api] info DELETE /book/:bookId/review/:reviewIndex - bookId: 4 - undefined
+2023-09-24T22:14:14.334Z [book-api] info DELETE /book/:bookId/review/:reviewIndex - bookId: 4 - undefined
+2023-09-24T22:14:41.006Z [book-api] info POST /book/:id/review - bookId: 4 - {"name":"teste","rating":5,"review":"teste"}
+2023-09-24T22:14:48.604Z [book-api] info POST /book/:id/review - bookId: 4 - {"name":"teste 2","rating":4,"review":"teste"}
+2023-09-24T22:14:52.728Z [book-api] info DELETE /book/:bookId/review/:reviewIndex - bookId: 4 - undefined
+2023-09-24T22:15:16.498Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[{"name":"teste 2","rating":4,"review":"teste","_id":"6510b4d877c03ac1a2475691"}],"__v":0}}
+2023-09-24T22:16:53.506Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[{"name":"teste 2","rating":4,"review":"teste","_id":"6510b4d877c03ac1a2475691"}],"__v":0}}
+2023-09-24T22:16:57.952Z [book-api] info DELETE /book/:bookId/review/:reviewIndex - bookId: 4 - undefined
+2023-09-24T22:17:46.261Z [book-api] info POST /book/:id/review - bookId: 4 - {"name":"teste 2","rating":4,"review":"teste"}
+2023-09-24T22:17:49.281Z [book-api] info GET /book - {"book":{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"},"bookInfo":{"_id":"6510b0bdc0190c126b7ec10c","bookId":4,"description":"test","pages":"120","editor":"Ética","reviews":[{"name":"teste 2","rating":4,"review":"teste","_id":"6510b58a9aff15fc81043578"}],"__v":0}}
+2023-09-24T22:18:03.775Z [book-api] info DELETE /book/:bookId/review/:reviewIndex - bookId: 4 - undefined
+2023-09-24T22:18:15.505Z [book-api] error DELETE  - Book has associated sales. Deletion is not allowed.
+2023-09-24T22:18:22.545Z [book-api] info DELETE /book/:id - "5"
+2023-09-24T22:18:27.553Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T22:20:37.489Z [book-api] info GET /customer - []
+2023-09-24T22:20:40.879Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T22:20:43.686Z [book-api] info GET /customer - [{"customerId":6,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:20:40.846Z","updatedAt":"2023-09-24T22:20:40.846Z"}]
+2023-09-24T22:20:48.481Z [book-api] info GET /customer - {"customerId":6,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:20:40.846Z","updatedAt":"2023-09-24T22:20:40.846Z"}
+2023-09-24T22:21:06.766Z [book-api] info POST /customer - {"customerId":6,"name":"biscoito 2","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T22:21:09.666Z [book-api] info GET /customer - [{"customerId":6,"name":"biscoito 2","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:20:40.846Z","updatedAt":"2023-09-24T22:21:06.744Z"}]
+2023-09-24T22:21:16.680Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":4,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-23T23:40:05.319Z"}]
+2023-09-24T22:21:36.069Z [book-api] info POST /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":6,"bookId":4}
+2023-09-24T22:21:41.855Z [book-api] error DELETE  - Customer has associated sales. Deletion is not allowed.
+2023-09-24T22:21:46.308Z [book-api] info POST /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4}
+2023-09-24T22:21:48.042Z [book-api] info DELETE /customer/:id - "6"
+2023-09-24T22:23:49.224Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"}]
+2023-09-24T22:23:59.568Z [book-api] info POST /author - {"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-24T22:24:02.405Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"},{"authorId":3,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-24T22:23:59.425Z","updatedAt":"2023-09-24T22:23:59.425Z"}]
+2023-09-24T22:24:11.297Z [book-api] info POST /author - {"authorId":3,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-24T22:28:51.840Z [book-api] info GET /author - [{"authorId":2,"name":"Fulano dos Livros","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-23T21:11:17.570Z"},{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"},{"authorId":3,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-24T22:23:59.425Z","updatedAt":"2023-09-24T22:24:11.274Z"}]
+2023-09-24T22:28:58.660Z [book-api] info POST /author - {"authorId":2,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-24T22:29:01.647Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"},{"authorId":3,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-24T22:23:59.425Z","updatedAt":"2023-09-24T22:24:11.274Z"},{"authorId":2,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-24T22:28:58.638Z"}]
+2023-09-24T22:29:07.989Z [book-api] info DELETE /author/:id - "2"
+2023-09-24T22:29:10.857Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"},{"authorId":3,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-24T22:23:59.425Z","updatedAt":"2023-09-24T22:24:11.274Z"},{"authorId":2,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-24T22:28:58.638Z"}]
+2023-09-24T22:29:16.896Z [book-api] info DELETE /author/:id - "2"
+2023-09-24T22:34:45.764Z [book-api] error DELETE  - authorId is not defined
+2023-09-24T22:35:18.740Z [book-api] error DELETE  - Author has associated books. Deletion is not allowed.
+2023-09-24T22:35:24.701Z [book-api] info DELETE /author/:id - "3"
+2023-09-24T22:35:27.559Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"},{"authorId":2,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-24T22:28:58.638Z"}]
+2023-09-24T22:41:41.390Z [book-api] info GET /customer - []
+2023-09-24T22:41:44.767Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-24T22:41:58.390Z [book-api] info POST /sale - {"value":"1200","date":"05/05/2005","customerId":7,"bookId":3}
+2023-09-24T22:42:01.443Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T22:42:08.299Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-24T22:42:17.419Z [book-api] info GET /sale - {"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"}
+2023-09-24T22:42:38.126Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-24T23:00:40.431Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-24T23:00:47.714Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-24T23:32:24.640Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:32:29.751Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:32:32.717Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:32:58.680Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:34:43.221Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:35:23.431Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:37:23.610Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:37:36.013Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:40:37.663Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:41:49.719Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:42:14.047Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:49:14.472Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:49:36.729Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:49:37.840Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-24T23:59:11.637Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-25T00:08:35.248Z [book-api] info GET /sale - [{"saleId":1,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":5,"bookId":4,"createdAt":"2023-09-23T23:27:50.063Z","updatedAt":"2023-09-24T22:21:46.292Z"},{"saleId":2,"value":"1200","date":"2005-05-05T03:00:00.000Z","customerId":7,"bookId":3,"createdAt":"2023-09-24T22:41:58.239Z","updatedAt":"2023-09-24T22:41:58.239Z"}]
+2023-09-25T22:12:31.857Z [book-api] error GET  - getCustomerByEmailAsync is not defined
+2023-09-25T22:13:58.961Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-25T23:56:43.992Z [book-api] error GET  - getCustomerByEmailAsync is not defined
+2023-09-25T23:57:21.209Z [book-api] error GET  - getCustomerByEmail is not defined
+2023-09-27T14:35:30.090Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-27T14:35:31.380Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-27T15:31:47.917Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-27T15:31:57.405Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-27T15:32:18.054Z [book-api] info GET /author - [{"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"},{"authorId":2,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T21:11:17.570Z","updatedAt":"2023-09-24T22:28:58.638Z"}]
+2023-09-27T15:32:28.982Z [book-api] info GET /customer - [{"customerId":7,"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123","createdAt":"2023-09-24T22:41:44.739Z","updatedAt":"2023-09-24T22:41:44.739Z"}]
+2023-09-27T15:40:49.594Z [book-api] info GET /author - {"authorId":1,"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181","createdAt":"2023-09-23T17:25:37.302Z","updatedAt":"2023-09-24T16:00:39.108Z"}
+2023-09-27T16:11:18.871Z [book-api] info GET /book - [{"bookId":4,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":2,"createdAt":"2023-09-23T20:47:20.509Z","updatedAt":"2023-09-23T20:47:20.509Z"}]
+2023-09-27T16:39:44.815Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:39:44.848Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:39:44.854Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:39:44.897Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-27T16:39:44.960Z [book-api] error GET  - invalid input syntax for integer: "undefined"
+2023-09-27T16:40:47.293Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:41:21.120Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:41:49.659Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:44:11.316Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:44:11.329Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:44:49.209Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:44:49.224Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:45:18.968Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:45:19.004Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:45:19.010Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:46:54.303Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:46:54.335Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:46:54.341Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:47:47.118Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:47:47.148Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:47:47.160Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:50:45.425Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:50:45.554Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:51:10.297Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:51:10.319Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:51:42.159Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:51:42.181Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:52:14.265Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:52:14.286Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:53:17.632Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:53:17.650Z [book-api] error POST  - notNull Violation: Books.authorId cannot be null
+2023-09-27T16:54:17.549Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:54:17.591Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":22}
+2023-09-27T16:54:50.620Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:54:50.662Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":23}
+2023-09-27T16:56:10.204Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:56:10.240Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:56:10.276Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":25}
+2023-09-27T16:56:10.305Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-27T16:56:10.385Z [book-api] error GET  - invalid input syntax for integer: "undefined"
+2023-09-27T16:58:06.845Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:58:06.881Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T16:58:06.918Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":27}
+2023-09-27T16:58:06.948Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-27T16:58:07.508Z [book-api] info GET /book - {"book":{"bookId":9,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":27,"createdAt":"2023-09-27T16:58:06.892Z","updatedAt":"2023-09-27T16:58:06.892Z"},"bookInfo":null}
+2023-09-27T17:02:27.744Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T17:02:27.781Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T17:02:27.815Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":29}
+2023-09-27T17:02:27.843Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-27T17:02:28.349Z [book-api] info GET /book - {"book":{"bookId":10,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":29,"createdAt":"2023-09-27T17:02:27.792Z","updatedAt":"2023-09-27T17:02:27.792Z"},"bookInfo":null}
+2023-09-27T17:02:48.824Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T17:02:48.858Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T17:02:48.893Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":31}
+2023-09-27T17:02:48.920Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-27T17:02:49.374Z [book-api] info GET /book - {"book":{"bookId":11,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":31,"createdAt":"2023-09-27T17:02:48.872Z","updatedAt":"2023-09-27T17:02:48.872Z"},"bookInfo":null}
+2023-09-27T17:02:49.403Z [book-api] info POST /sale - {"value":50,"date":"2023-09-27","customerId":12,"bookId":11}
+2023-09-27T17:03:34.334Z [book-api] info GET /book - [{"bookId":6,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":22,"createdAt":"2023-09-27T16:54:17.566Z","updatedAt":"2023-09-27T16:54:17.566Z"},{"bookId":7,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":23,"createdAt":"2023-09-27T16:54:50.639Z","updatedAt":"2023-09-27T16:54:50.639Z"},{"bookId":8,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":25,"createdAt":"2023-09-27T16:56:10.253Z","updatedAt":"2023-09-27T16:56:10.253Z"},{"bookId":9,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":27,"createdAt":"2023-09-27T16:58:06.892Z","updatedAt":"2023-09-27T16:58:06.892Z"},{"bookId":10,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":29,"createdAt":"2023-09-27T17:02:27.792Z","updatedAt":"2023-09-27T17:02:27.792Z"},{"bookId":11,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":31,"createdAt":"2023-09-27T17:02:48.872Z","updatedAt":"2023-09-27T17:02:48.872Z"}]
+2023-09-27T17:07:03.425Z [book-api] info POST /author - {"name":"Fulano TESTE","email":"fulano@livros.com","phone":"1198181-8181"}
+2023-09-27T17:07:03.459Z [book-api] info POST /book - {"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":32}
+2023-09-27T17:07:03.486Z [book-api] info POST /customer - {"name":"Clientola","email":"clientola@pa.com","password":"123456","phone":"11930054865","address":"rua do clientola, 123"}
+2023-09-27T17:07:04.000Z [book-api] info GET /book - {"book":{"bookId":12,"name":"Livro do Ciclano","value":"100.5","stock":3,"authorId":32,"createdAt":"2023-09-27T17:07:03.437Z","updatedAt":"2023-09-27T17:07:03.437Z"},"bookInfo":null}
+2023-09-27T17:07:04.030Z [book-api] info POST /sale - {"value":50,"date":"2023-09-27","customerId":13,"bookId":12}
